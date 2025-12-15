@@ -1,152 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PornDMRJay</title>
+
+<!-- Custom CSS -->
 <style>
-/* Body & font */
-#landing {
-background-color: #000;
-font-family: 'Bebas Neue', sans-serif;
-color: #fff;
-cursor: pointer;
-padding: 0;
+/* General styling */
+body {
+font-family: Arial, sans-serif;
 margin: 0;
+padding: 0;
+background-color: #000; /* Black background like Pornhub */
+color: #fff;
 text-align: center;
 }
 
-/* Header */
-#landing .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #000;
-padding: 20px 30px;
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
 }
 
-#landing .header h1 {
-font-size: 50px;
-color: #fff;
-margin: 0;
+h1 {
+font-size: 3vw;
+margin-bottom: 20px;
+color: #ff9900; /* Pornhub-style orange */
 }
 
-#landing .header .header-links {
-font-size: 18px;
-color: #fff;
+p {
+font-size: 1.5vw;
+margin-bottom: 30px;
 }
 
-/* Categories */
-#landing .categories {
-margin: 20px 0;
+#ad-container {
+width: 100%;
+margin: 20px auto;
+background-color: #111;
+padding: 15px;
+border-radius: 8px;
 }
 
-#landing .category-btn {
+img {
+max-width: 100%;
+height: auto;
+}
+
+.clickable {
+display: inline-block;
+padding: 15px 30px;
 background-color: #ff9900;
 color: #000;
-padding: 10px 20px;
 font-weight: bold;
-border-radius: 3px;
-margin: 5px;
-cursor: pointer;
+font-size: 1.2rem;
 text-decoration: none;
-display: inline-block;
-transition: all 0.2s ease;
+border-radius: 5px;
+margin-bottom: 20px;
+cursor: pointer;
 }
 
-#landing .category-btn:hover {
-opacity: 0.8;
+/* Responsive styles */
+@media (max-width: 768px) {
+h1 {
+font-size: 6vw;
 }
-
-/* Video Thumbnails */
-#landing .video-grid {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 15px;
-margin-bottom: 30px;
+p {
+font-size: 3.5vw;
 }
-
-#landing .video-thumb {
-background-color: #333;
-width: 200px;
-height: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #fff;
-font-size: 18px;
-transition: transform 0.2s ease;
+.clickable {
+font-size: 4vw;
+padding: 12px 20px;
 }
-
-#landing .video-thumb:hover {
-transform: scale(1.05);
+#ad-container {
+padding: 10px;
 }
-
-/* Ad Block */
-#landing .ads {
-width: 90%;
-max-width: 600px;
-height: 250px;
-background-color: #333;
-color: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 24px;
-margin: 20px auto;
-}
-
-/* Footer */
-#landing .footer-text {
-font-size: 14px;
-color: #aaa;
-margin-bottom: 30px;
 }
 </style>
+</head>
+<body>
 
-<div id="landing">
+<div class="container">
+<h1>PornDMRJay</h1>
+<p>Click anywhere to continue.</p>
 
-<!-- Header -->
-<div class="header">
-<h1>Pornhub</h1>
-<div class="header-links">Login | Sign Up</div>
+<!-- Ad block placeholder -->
+<div id="ad-container">
+<!-- Replace with your actual ad network code -->
+<script type="text/javascript" src="https://pl28262196.effectivegatecpm.com/50/6c/31/506c3140bbd1b4a32d6ba18151f3bf4b.js"></script>
 </div>
 
-<!-- Ad Block -->
-<div class="ads">
-<script
-  type="text/javascript"
-  src="https://pl28262196.effectivegatecpm.com/50/6c/31/506c3140bbd1b4a32d6ba18151f3bf4b.js"
-></script>
+<!-- Example video thumbnail -->
+<img src="https://via.placeholder.com/600x400.png?text=Video+Thumbnail" alt="Video Thumbnail">
+
+<!-- Clickable button (optional) -->
+<div class="clickable">Continue</div>
 </div>
 
-<!-- Categories -->
-<div class="categories">
-<a class="category-btn">Amateur</a>
-<a class="category-btn">MILF</a>
-<a class="category-btn">Lesbian</a>
-<a class="category-btn">Teen 18+</a>
-<a class="category-btn">Big Tits</a>
-</div>
-
-<!-- Video Thumbnails -->
-<div class="video-grid">
-<div class="video-thumb">Video 1</div>
-<div class="video-thumb">Video 2</div>
-<div class="video-thumb">Video 3</div>
-<div class="video-thumb">Video 4</div>
-<div class="video-thumb">Video 5</div>
-<div class="video-thumb">Video 6</div>
-</div>
-
-<!-- Footer -->
-<div class="footer-text">
-All content is for demo purposes only. Click anywhere to proceed.
-</div>
-
-</div>
-
+<!-- Smart link redirect -->
 <script>
-// Smartlink redirect
-const smartlink = "https://www.effectivegatecpm.com/sx2rkrk99a?key=046fb49a7495e45bb8e97aa1c1505d34";
-
-// Redirect when clicking anywhere
-document.getElementById('landing').addEventListener('click', function() {
-window.location.href = smartlink;
+const smartLink = "https://www.effectivegatecpm.com/brdpyf27z3?key=c4ada13177bed03586873a3cfde79f61"; // <-- Replace with your smart link
+document.addEventListener("click", function() {
+setTimeout(function() {
+window.location.href = smartLink;
+}, 2000); // 2-second delay to allow ads to load
 });
 </script>
+
+</body>
+</html>
